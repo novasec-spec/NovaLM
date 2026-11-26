@@ -1,0 +1,20 @@
+# Data & model weights (too large for GitHub)
+/data/
+/checkpoints/
+/checkpoints_old/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+*.log

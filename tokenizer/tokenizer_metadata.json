@@ -1,0 +1,22 @@
+{
+    "tokenizer_version": 1,
+    "tokenizer_type": "BPE",
+    "pre_tokenizer": "ByteLevel",
+    "vocab_size_requested": 16000,
+    "vocab_size_actual": 16000,
+    "special_tokens": [
+        "<pad>",
+        "<unk>",
+        "<bos>",
+        "<eos>"
+    ],
+    "tokenizer_file": "tokenizer/tokenizer.json",
+    "training_files": [
+        {
+            "path": "data/cleaned/train/TinyStories-train.txt",
+            "size_bytes": 65121347,
+            "sha256": "0c5d25f4bb49b83abcf5dbd4fea0198f5c5d899f3df9c182c9aba8f4760791c9"
+        }
+    ],
+    "tokenizer_sha256": "6f71587bf76419b53f29480594df5f618da4504dadf0b3e827e1d4730bbad82e"
+}
